@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node app.js",
-		"dev": "nodemon app.js"
+		"dev": "nodemon app.js",
+		"servers": "concurrently \"npm run start\" \"cd ../frontend && npm run start\""
 	},
 	"keywords": [],
 	"author": "Andrew Baisden",

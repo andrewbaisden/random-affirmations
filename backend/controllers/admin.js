@@ -11,6 +11,9 @@ exports.getAffirmation = (req, res) => {
 	const affirmationId = req.params.affirmationId;
 
 	Affirmations.findById(affirmationId, (affirmation) => {
+		if (!affirmation) {
+			res.json({ msg: 'No ID found' });
+		}
 		console.log(affirmation);
 		res.json(affirmation);
 	});

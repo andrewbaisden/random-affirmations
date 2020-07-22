@@ -1,1 +1,22 @@
-[{"id":"1","name":"Affirmation 1","img":""},{"id":"2","name":"Affirmation 2","img":""},{"id":"3","name":"Affirmation 3","img":""},{"id":"4","name":"Affirmation 4","img":""},{"id":"5","name":"Affirmation 5","img":""},{"id":"6","name":"Affirmation 6","img":""}]
+[
+	{ "id": "1", "name": "Affirmation 1", "img": "" },
+	{ "id": "2", "name": "Affirmation 2", "img": "" },
+	{ "id": "3", "name": "Affirmation 3", "img": "" },
+	{ "id": "4", "name": "Affirmation 4", "img": "" },
+	{ "id": "5", "name": "Affirmation 5", "img": "" },
+	{ "id": "6", "name": "Affirmation 6", "img": "" },
+	{ "id": "7", "name": "Affirmation 7", "img": "" },
+	{ "id": "8", "name": "Affirmation 8", "img": "" },
+	{ "id": "9", "name": "Affirmation 9", "img": "" },
+	{ "id": "10", "name": "Affirmation 10", "img": "" },
+	{ "id": "11", "name": "Affirmation 11", "img": "" },
+	{ "id": "12", "name": "Affirmation 12", "img": "" },
+	{ "id": "13", "name": "Affirmation 13", "img": "" },
+	{ "id": "14", "name": "Affirmation 14", "img": "" },
+	{ "id": "15", "name": "Affirmation 15", "img": "" },
+	{ "id": "16", "name": "Affirmation 16", "img": "" },
+	{ "id": "17", "name": "Affirmation 17", "img": "" },
+	{ "id": "18", "name": "Affirmation 18", "img": "" },
+	{ "id": "19", "name": "Affirmation 19", "img": "" },
+	{ "id": "20", "name": "Affirmation 20", "img": "" }
+]
