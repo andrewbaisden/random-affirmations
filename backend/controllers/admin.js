@@ -1,3 +1,25 @@
+const Affirmations = require('../models/Affirmations');
+
 exports.geAffirmations = (req, res) => {
-	res.send('All Affirmations Route');
+	Affirmations.fetchAll((affirmation) => {
+		console.log(affirmation);
+		res.json(affirmation);
+	});
+};
+
+exports.getAffirmation = (req, res) => {
+	const affirmationId = req.params.affirmationId;
+
+	Affirmations.findById(affirmationId, (affirmation) => {
+		console.log(affirmation);
+		res.json(affirmation);
+	});
+};
+
+exports.postAffirmations = (req, res) => {
+	const { id, name, img } = req.body;
+
+	const affirmation = new Affirmations(id, name, img);
+	affirmation.save();
+	res.redirect('/');
 };
