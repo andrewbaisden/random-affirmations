@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
+import './App.css';
 
 const App = () => {
 	// useEffect(() => {
@@ -30,17 +31,43 @@ const App = () => {
 
 	return (
 		<Fragment>
-			<h1>Generate a Random Affirmation</h1>
-			<div>
-				{loading ? (
-					<div></div>
-				) : (
+			<div className="flex mb-4">
+				<div className="w-full bg-gray-100 h-auto p-10 flex justify-center">
 					<div>
-						<p>{data.name}</p>
+						<div className="rounded overflow-hidden shadow-lg w-auto p-6">
+							<div>
+								<h1 className="text-4xl text-center">Generate a Random Affirmation</h1>
+							</div>
+							<div className="px-6 py-4 text-center">
+								<div>
+									{loading ? (
+										<div></div>
+									) : (
+										<div>
+											<img
+												className="w-full max-w-2xl"
+												src="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+												alt={data.img}
+											/>
+											<blockquote className="text-gray-700 text-base mt-10 mb-10 text-2xl">
+												<span className="text-2xl">"</span>
+												{data.name}
+												<span className="text-2xl">"</span>
+											</blockquote>
+										</div>
+									)}
+								</div>
+								<button
+									className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+									onClick={getAPI}
+								>
+									Get an Affirmation
+								</button>
+							</div>
+						</div>
 					</div>
-				)}
+				</div>
 			</div>
-			<button onClick={getAPI}>Get an Affirmation</button>
 		</Fragment>
 	);
 };
