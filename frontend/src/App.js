@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import './App.css';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
 
 	const getAPI = () => {
 		const affirmation = Math.round(Math.random() * 19 + 1);
-		console.log(affirmation);
+		// console.log(affirmation);
 
 		const API = `http://localhost:8080/${affirmation}`;
 
@@ -22,7 +22,7 @@ const App = () => {
 			.then((data) => {
 				setLoading(false);
 				setData(data);
-				console.log(data);
+				// console.log(data);
 			})
 			.catch((err) => {
 				console.log(err);
@@ -36,7 +36,7 @@ const App = () => {
 					<div>
 						<div className="rounded overflow-hidden shadow-lg w-auto p-6">
 							<div>
-								<h1 className="text-4xl text-center">Generate a Random Affirmation</h1>
+								<h1 className="text-2xl text-center uppercase tracking-wider">Generate a Random Affirmation</h1>
 							</div>
 							<div className="px-6 py-4 text-center">
 								<div>
@@ -44,21 +44,20 @@ const App = () => {
 										<div></div>
 									) : (
 										<div>
-											<img
-												className="w-full max-w-2xl"
-												src="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
-												alt={data.img}
-											/>
-											<blockquote className="text-gray-700 text-base mt-10 mb-10 text-2xl">
-												<span className="text-2xl">"</span>
+											<div className="flex justify-center">
+												<img className="w-full max-w-2xl" src={data.img} alt={data.name} />
+											</div>
+
+											<blockquote className="text-gray-700 text-base mt-10 mb-10 text-4xl">
+												<span className="text-4xl">"</span>
 												{data.name}
-												<span className="text-2xl">"</span>
+												<span className="text-4xl">"</span>
 											</blockquote>
 										</div>
 									)}
 								</div>
 								<button
-									className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+									className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded uppercase tracking-wider text-2xl"
 									onClick={getAPI}
 								>
 									Get an Affirmation

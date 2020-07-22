@@ -1,22 +1,102 @@
 [
-	{ "id": "1", "name": "Affirmation 1", "img": "" },
-	{ "id": "2", "name": "Affirmation 2", "img": "" },
-	{ "id": "3", "name": "Affirmation 3", "img": "" },
-	{ "id": "4", "name": "Affirmation 4", "img": "" },
-	{ "id": "5", "name": "Affirmation 5", "img": "" },
-	{ "id": "6", "name": "Affirmation 6", "img": "" },
-	{ "id": "7", "name": "Affirmation 7", "img": "" },
-	{ "id": "8", "name": "Affirmation 8", "img": "" },
-	{ "id": "9", "name": "Affirmation 9", "img": "" },
-	{ "id": "10", "name": "Affirmation 10", "img": "" },
-	{ "id": "11", "name": "Affirmation 11", "img": "" },
-	{ "id": "12", "name": "Affirmation 12", "img": "" },
-	{ "id": "13", "name": "Affirmation 13", "img": "" },
-	{ "id": "14", "name": "Affirmation 14", "img": "" },
-	{ "id": "15", "name": "Affirmation 15", "img": "" },
-	{ "id": "16", "name": "Affirmation 16", "img": "" },
-	{ "id": "17", "name": "Affirmation 17", "img": "" },
-	{ "id": "18", "name": "Affirmation 18", "img": "" },
-	{ "id": "19", "name": "Affirmation 19", "img": "" },
-	{ "id": "20", "name": "Affirmation 20", "img": "" }
+	{
+		"id": "1",
+		"name": "I am the architect of my life; I build its foundation and choose its contents.",
+		"img": "https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+	},
+	{
+		"id": "2",
+		"name": "Today, I am brimming with energy and overflowing with joy.",
+		"img": "https://images.unsplash.com/photo-1549902818-b53361fbe1e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "3",
+		"name": "My body is healthy; my mind is brilliant; my soul is tranquil.",
+		"img": "https://images.unsplash.com/photo-1519852476561-ec618b0183ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1338&q=80"
+	},
+	{
+		"id": "4",
+		"name": "I am superior to negative thoughts and low actions.",
+		"img": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "5",
+		"name": "I have been given endless talents which I begin to utilize today.",
+		"img": "https://images.unsplash.com/photo-1512772452758-275f069da6bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "6",
+		"name": "I forgive those who have harmed me in my past and peacefully detach from them",
+		"img": "https://images.unsplash.com/photo-1542480530-7a1c43daace4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "7",
+		"name": "A river of compassion washes away my anger and replaces it with love.",
+		"img": "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80"
+	},
+	{
+		"id": "8",
+		"name": "I am guided in my every step by Spirit who leads me towards what I must know and do.",
+		"img": "https://images.unsplash.com/photo-1484729473434-74a3e2353395?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1306&q=80"
+	},
+	{
+		"id": "9",
+		"name": "I possess the qualities needed to be extremely successful.",
+		"img": "https://images.unsplash.com/photo-1573639623669-adf0b419934d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+	},
+	{
+		"id": "10",
+		"name": "Happiness is a choice. I base my happiness on my own accomplishments and the blessings I've been given.",
+		"img": "https://images.unsplash.com/photo-1583129637935-b1af063d2c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"id": "11",
+		"name": "My ability to conquer my challenges is limitless; my potential to succeed is infinite.",
+		"img": "https://images.unsplash.com/photo-1589179232316-4b146215dff4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+	},
+	{
+		"id": "12",
+		"name": "I am courageous and I stand up for myself.",
+		"img": "https://images.unsplash.com/photo-1488197047962-b48492212cda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80"
+	},
+	{
+		"id": "13",
+		"name": "Today, I abandon my old habits and take up new, more positive ones.",
+		"img": "https://images.unsplash.com/photo-1508556497405-ed7dcd94acfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "14",
+		"name": "I deserve to be healthy and feel good.",
+		"img": "https://images.unsplash.com/photo-1583668928307-a9c4fc140c48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"id": "15",
+		"name": "I am blessed with an incredible family and wonderful friends.",
+		"img": "https://images.unsplash.com/photo-1502022484792-e9e5c7bd707f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "16",
+		"name": "Everything that is happening now is happening for my ultimate good.",
+		"img": "https://images.unsplash.com/photo-1480589331144-96c57ade5d41?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+	},
+	{
+		"id": "17",
+		"name": "Though these times are difficult, they are only a short phase of life.",
+		"img": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+	},
+	{
+		"id": "18",
+		"name": "I am conquering my illness; I am defeating it steadily each day.",
+		"img": "https://images.unsplash.com/photo-1541119638723-c51cbe2262aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+	},
+	{
+		"id": "19",
+		"name": "My fears of tomorrow are simply melting away.",
+		"img": "https://images.unsplash.com/photo-1531160492875-2a09eb0cd73b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+	},
+	{
+		"id": "20",
+		"name": "My nature is Divine; I am a spiritual being.",
+		"img": "https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	}
 ]
