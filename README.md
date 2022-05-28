@@ -1,6 +1,6 @@
 # Random Affirmations
 
-![Random Affirmations](https://res.cloudinary.com/d74fh3kw/image/upload/v1595439518/affirmation-app_vhmyz9.png 'Random Affirmations')
+![Random Affirmations](/img/random-affirmations.png 'Random Affirmations')
 
 ## Installation
 
